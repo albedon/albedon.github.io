@@ -15,7 +15,6 @@ class SpeakerSystem:
         self.stop_listening = False
         self.engine = pyttsx3.init()
         self.engine.setProperty('rate', 150)  # Adjust speech rate if needed
-        self.speech_lock = threading.Lock()
 
     def stop_listening_after_timeout(self, timeout):
         time.sleep(timeout)
