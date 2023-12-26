@@ -55,7 +55,7 @@ class SpeakerSystem:
             self.engine.runAndWait()
 
 # Configure API key
-genai.configure(api_key="AIzaSyDSLg4jg9epkg2DjqANqymmGfsQXktjEpg")
+genai.configure(api_key="[KEY]")
 
 # Choose model
 model = genai.GenerativeModel('gemini-pro')
